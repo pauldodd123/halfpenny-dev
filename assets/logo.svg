@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <radialGradient id="copper" cx="35%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#D89A60"/>
+      <stop offset="55%" stop-color="#B87333"/>
+      <stop offset="100%" stop-color="#7A4A1F"/>
+    </radialGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#142845"/>
+      <stop offset="100%" stop-color="#0E1B2C"/>
+    </linearGradient>
+  </defs>
+  <!-- Coin -->
+  <g transform="translate(110,110)">
+    <circle r="92" fill="url(#ink)"/>
+    <circle r="92" fill="none" stroke="#B87333" stroke-width="3" opacity="0.55"/>
+    <circle r="80" fill="none" stroke="#B87333" stroke-width="1.2" opacity="0.4"/>
+    <!-- Filled half -->
+    <path d="M 0,-80 A 80,80 0 0 1 0,80 Z" fill="url(#copper)"/>
+    <!-- ½ glyph -->
+    <text x="-2" y="22" font-size="110" font-style="italic" fill="#F4EFE6" text-anchor="middle" font-weight="400">½</text>
+  </g>
+  <!-- Wordmark -->
+  <g transform="translate(230,0)">
+    <text x="0" y="120" font-size="62" fill="#0E1B2C" letter-spacing="1.5" font-weight="500">halfpenny</text>
+    <text x="305" y="120" font-size="62" fill="#B87333" font-style="italic" font-weight="500">.dev</text>
+    <line x1="2" y1="138" x2="438" y2="138" stroke="#B87333" stroke-width="1" opacity="0.5"/>
+    <text x="2" y="166" font-size="16" fill="#5C6470" letter-spacing="6" font-family="Calibri, Arial, sans-serif">WEBSITES THAT EARN THEIR KEEP</text>
+  </g>
+</svg>

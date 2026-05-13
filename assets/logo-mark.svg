@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <radialGradient id="copper2" cx="35%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#D89A60"/>
+      <stop offset="55%" stop-color="#B87333"/>
+      <stop offset="100%" stop-color="#7A4A1F"/>
+    </radialGradient>
+    <linearGradient id="ink2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#142845"/>
+      <stop offset="100%" stop-color="#0E1B2C"/>
+    </linearGradient>
+  </defs>
+  <circle r="92" fill="url(#ink2)"/>
+  <circle r="92" fill="none" stroke="#B87333" stroke-width="3" opacity="0.55"/>
+  <circle r="80" fill="none" stroke="#B87333" stroke-width="1.2" opacity="0.4"/>
+  <path d="M 0,-80 A 80,80 0 0 1 0,80 Z" fill="url(#copper2)"/>
+  <text x="-2" y="22" font-size="110" font-style="italic" fill="#F4EFE6" text-anchor="middle" font-weight="400">½</text>
+</svg>
